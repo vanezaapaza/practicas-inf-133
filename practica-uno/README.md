@@ -25,7 +25,8 @@ De las plantas se debe almacenar la siguiente información:
 - Edad (en meses)
 - Altura (en cm)
 - Frutos (booleano)
-Rutas esperadas: 
+
+**Rutas esperadas:**
 - `/graphql`
 
 ## Ejercicio 3
@@ -47,7 +48,7 @@ De los pacientes se debe almacenar la siguiente información:
 - Diagnóstico
 - Doctor (nombre del doctor que atiende al paciente)
 
-Rutas esperadas:
+**Rutas esperadas:**
 - POST `/pacientes`
 - GET `/pacientes`
 - GET `/pacientes/{ci}`
@@ -77,7 +78,7 @@ De los animales se debe almacenar la siguiente información:
 - Edad
 - Peso
 
-Rutas esperadas:
+**Rutas esperadas:**
 - POST `/animales`
 - GET `/animales`
 - GET `/animales?especie={especie}`
@@ -102,7 +103,7 @@ De las partidas se debe almacenar la siguiente información:
 - Elemento del servidor (piedra, papel o tijera)
 - Resultado (ganó, perdió o empató)
 
-Rutas esperadas:
+**Rutas esperadas:**
 - POST `/partidas`
 - GET `/partidas`
 - GET `/partidas?resultado={resultado}`
@@ -131,6 +132,7 @@ Ejemplo de la respuesta POST `/partidas`:
   "resultado": "ganó"
 }
 ```
+
 ## Ejercicio 8
 Aplicando los principios de desarrollo de Software DRY, KISS, YAGNI y la S de SOLID construye una API RESTful para encriptar mensajes, la API debe permitir:
 
@@ -149,7 +151,7 @@ El encriptado debe ser realizado con el algoritmo de cifrado César, donde cada 
 
 *Sugerencia: Utiliza los ASCII codes para realizar el encriptado.*
 
-Rutas esperadas:
+**Rutas esperadas:**
 - POST `/mensajes`
 - GET `/mensajes`
 - GET `/mensajes/{id}`
@@ -186,5 +188,7 @@ practica-uno
     ├── cesar_server.py
     └── cesar_client.py
 ```
+
 - Una vez que hayas completado la práctica, adjunta el enlace de tu repositorio en la tarea asignada como `PRACTICA PRIMER PARCIAL` en la plataforma Google Classroom.
+
 - Fecha LIMITE de entrega: 06/04/2024
