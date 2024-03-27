@@ -1,9 +1,13 @@
 # PRACTICA INF 133
 
-En este repositorio encontrarás las prácticas de la asignatura INF 133 paralelo D semestre I/2024, Lic. Tatiana Delgadillo.
+En este repositorio encontrarás las prácticas de la asignatura **INF 133**
+*Paralelo D semestre I/2024*
+*Lic. Tatiana Delgadillo.*
 
 # Antes de Empezar:
 1. Realiza un **Fork** de este repositorio:
+![Repositorio de Practicas](https://live.staticflickr.com/65535/53613899301_926ccaa95a_z.jpg)
+
 2. **Clona** el nuevo repositorio resultado del **Fork** en tu equipo local o ábrelo con GitHub Codespaces
 
 # Practica Primer Parcial
