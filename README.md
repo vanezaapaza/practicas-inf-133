@@ -1,7 +1,9 @@
 # PRACTICA INF 133
 
 En este repositorio encontrarás las prácticas de la asignatura **INF 133**
+
 *Paralelo D semestre I/2024*
+
 *Lic. Tatiana Delgadillo.*
 
 # Antes de Empezar:

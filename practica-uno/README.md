@@ -52,7 +52,7 @@ Rutas esperadas:
 - GET `/pacientes`
 - GET `/pacientes/{ci}`
 - GET `/pacientes/?diagnostico={diagnostico}`
-- GET `/pacientes/?doctor{doctor}`
+- GET `/pacientes/?doctor={doctor}`
 - PUT `/pacientes/{ci}`
 - DELETE `/pacientes/{ci}`
 
@@ -148,6 +148,13 @@ De los mensajes se debe almacenar la siguiente información:
 El encriptado debe ser realizado con el algoritmo de cifrado César, donde cada letra del mensaje debe ser reemplazada por la letra que se encuentra 3 posiciones adelante en el alfabeto. Por ejemplo, la letra `a` debe ser reemplazada por la letra `d`, la letra `b` por la letra `e`, y así sucesivamente.
 
 *Sugerencia: Utiliza los ASCII codes para realizar el encriptado.*
+
+Rutas esperadas:
+- POST `/mensajes`
+- GET `/mensajes`
+- GET `/mensajes/{id}`
+- PUT `/mensajes/{id}`
+- DELETE `/mensajes/{id}`
 
 
 # Entrega
